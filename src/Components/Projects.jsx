@@ -45,7 +45,7 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.15 }}
-              className="group relative flex flex-col justify-between overflow-hidden rounded-3xl border border-white/10 bg-[#0e121b]/80 p-7 backdrop-blur-xl transition-all duration-300 hover:-translate-y-2 hover:border-white/25 hover:shadow-2xl hover:shadow-black/70 sm:p-8"
+              className="group relative flex flex-col justify-between overflow-hidden rounded-3xl border border-white/10 bg-[#0e121b]/80 p-5 sm:p-8 backdrop-blur-xl transition-all duration-300 hover:-translate-y-2 hover:border-white/25 hover:shadow-2xl hover:shadow-black/70"
             >
 
               <div className="pointer-events-none absolute -inset-px rounded-3xl opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-gradient-to-b from-[#ff385c]/10 via-transparent to-transparent" />

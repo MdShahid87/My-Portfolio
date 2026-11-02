@@ -195,7 +195,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="rounded-3xl border border-white/10 bg-[#0e121b]/80 p-7 backdrop-blur-xl sm:p-10"
+            className="rounded-3xl border border-white/10 bg-[#0e121b]/80 p-5 sm:p-8 md:p-10 backdrop-blur-xl"
           >
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>

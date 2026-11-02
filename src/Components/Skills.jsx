@@ -54,7 +54,7 @@ const Skills = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative flex flex-col justify-between overflow-hidden rounded-3xl border border-white/10 bg-[#0e121b]/80 p-7 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1.5 hover:border-white/20 hover:shadow-2xl hover:shadow-black/50"
+              className="group relative flex flex-col justify-between overflow-hidden rounded-3xl border border-white/10 bg-[#0e121b]/80 p-5 sm:p-7 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1.5 hover:border-white/20 hover:shadow-2xl hover:shadow-black/50"
             >
               <div>
                 {/* Header: Icon + Title + Index */}

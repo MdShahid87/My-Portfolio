@@ -83,7 +83,7 @@ const Certificates = () => {
             href={certificates.viewAllUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-2.5 rounded-full border border-white/15 bg-white/[0.04] px-7 py-3.5 text-xs font-bold uppercase tracking-wider text-white backdrop-blur-md transition-all duration-300 hover:border-white/30 hover:bg-white/10 hover:scale-[1.02]"
+            className="group inline-flex items-center justify-center gap-2.5 rounded-full border border-white/15 bg-white/[0.04] px-5 sm:px-7 py-3.5 text-xs font-bold uppercase tracking-wider text-white backdrop-blur-md transition-all duration-300 hover:border-white/30 hover:bg-white/10 hover:scale-[1.02] text-center max-w-full"
           >
             <Award className="h-4 w-4 text-[#ff385c]" />
             <span>Verify All Certificates on LinkedIn</span>

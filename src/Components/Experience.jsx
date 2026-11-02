@@ -53,7 +53,7 @@ const Experience = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="group relative overflow-hidden rounded-3xl border border-white/10 bg-[#0e121b]/80 p-7 backdrop-blur-xl transition-all duration-300 hover:border-white/20 sm:p-10"
+            className="group relative overflow-hidden rounded-3xl border border-white/10 bg-[#0e121b]/80 p-5 sm:p-8 md:p-10 backdrop-blur-xl transition-all duration-300 hover:border-white/20"
           >
 
             <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
